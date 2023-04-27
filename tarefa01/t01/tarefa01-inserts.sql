@@ -49,6 +49,27 @@ insert into funcionario
 (nome, sexo, dtNasc, salario, codSupervisor, codDepto)
 values ('Taciano', 'M', '1980-01-25', 2500.00, null, 2);
 
+insert into funcionario
+(nome, sexo, dtNasc, salario, codSupervisor, codDepto)
+values ('Santana', 'F', '1988-05-07', 2500.00, null, 1);
+
+insert into funcionario
+(nome, sexo, dtNasc, salario, codSupervisor, codDepto)
+values ('Rivaldo', 'M', '1980-01-25', 2500.00, null, 2);
+
+
+insert into funcionario
+(nome, sexo, dtNasc, salario, codSupervisor, codDepto)
+values ('Taciano', 'M', '1980-01-25', 2500.00, null, 2);
+
+insert into funcionario
+(nome, sexo, dtNasc, salario, codSupervisor, codDepto)
+values ('Santana', 'F', '1988-05-07', 2500.00, null, 1);
+
+insert into funcionario
+(nome, sexo, dtNasc, salario, codSupervisor, codDepto)
+values ('Rivaldo', 'M', '1980-01-25', 2500.00, null, 2);
+
 update departamento set codGerente = 1 where sigla = 'DHC';
 update departamento set codGerente = 2 where sigla = 'DCT';
 
