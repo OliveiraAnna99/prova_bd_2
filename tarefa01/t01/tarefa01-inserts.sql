@@ -17,6 +17,28 @@ insert into departamento
 (sigla, descricao, codGerente)
 values ('DXT', null, null);
 
+insert into departamento
+(sigla, descricao, codGerente)
+values ('DTO', 'Dep História', null);
+
+insert into departamento
+(sigla, descricao, codGerente)
+values ('MTP', 'Dep Computação', null);
+
+insert into departamento
+(sigla, descricao, codGerente)
+values ('RAV', 'Dep Geografia', null);
+
+insert into departamento
+(sigla, descricao, codGerente)
+values ('XAP', null, null);
+
+insert into departamento
+(sigla, descricao, codGerente)
+values ('CBP', null, null);
+
+
+
 # Adicionando Gerentes
 
 insert into funcionario
